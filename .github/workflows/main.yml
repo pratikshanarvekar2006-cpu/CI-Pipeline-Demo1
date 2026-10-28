@@ -9,7 +9,6 @@ jobs:
 build:
 runs-on: ubuntu-latest
 
-```
 steps:
   - name: Checkout Repository
     uses: actions/checkout@v4
@@ -25,4 +24,4 @@ steps:
 
   - name: Display Completion Message
     run: echo "Pipeline Executed Successfully"
-```
+
